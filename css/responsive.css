@@ -1,0 +1,357 @@
+@media only screen and (min-width: 320px) and (max-width: 990px)
+{
+    .second-nav
+    {
+        display: none;
+    }
+    .first-nav-bar
+    {
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 990px) and (max-width: 1920px)
+{
+    .responsive-navbar
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 990px)
+{
+    .top-header-section .right-section .mail-us
+    {
+        display: none;
+    }
+}
+@media screen and (max-width:3300px)
+{
+	.fixed-callout  .hidden-xs{display: none!important;}
+	.fixed-callout .visible-xs{display: block!important;}
+	.fixed-callout .mbtn-callout a {display: inline-block;font-size: 0!important;margin: 0 6px!important;
+	padding: 0!important;}
+	.fixed-callout {padding: 0px 3px!important;/*width: 110px;*/}
+	.fixed-callout .what-col img{width: 35px!important;padding: 2px 0 5px !important;}
+  }
+@media (min-width: 767px){
+  .dontdisplaylg {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px)
+{
+    .fixed-callout
+    {
+        display: none;
+    }
+    .client-logo2-media 
+    {
+        padding: 0px;
+    }
+    .about-section .about-left-section img {
+        height: auto;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .responsive-navbar .navbar-brand img {
+        height: 33px;
+        width: auto;
+    }
+    .footer-bootom-section {
+        background-color: #236fa3;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .top-header-section .left-section p
+    {
+        text-align: center;
+    }
+    .top-header-section .right-section ul {
+        list-style: none;
+        margin: 0 auto;
+        display: flex;
+        float: none;
+        justify-content: center;
+    }
+    .about-section .about-left-section
+    {
+        padding-bottom: 30px;
+    }
+    .about-section {
+        padding: 30px 0px;
+    }
+    .top-header-section .right-section ul li
+    {
+        padding: 1px 15px 10px 15px;
+    }
+    .responsive-navbar
+    {
+        padding: 15px;
+    }
+    .about-right-section h2
+    {
+        font-size: 23px;
+    }
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .copywrite-right-section p {
+        text-align: center;
+    }
+    .services-section h4::before {
+        position: absolute;
+        left: 41.7%;
+        top: 25px;
+        content: "";
+        height: 3px;
+        width: 68px;
+        background: #71ad49;
+    }
+    .services-section h4::after {
+        position: absolute;
+        left: 38.6%;
+        top: 25px;
+        content: "";
+        height: 4px;
+        width: 4px;
+        background: #71ad49;
+        border-radius: 50%;
+    }
+    .service-page-section .left-section .image-section img
+    {
+        width: 100%;
+        height: auto;
+    }
+    .services-contact-section 
+    {
+        padding: 35px 10px 35px 10px;
+    }
+    .services-contact-section .services-contact li a {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .services-contact-section .services-contact li {
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .page-banner-ecomerce {
+        background-image: url(../images/page-banner/e-commerce-page-panner.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110px;
+        background-position: left;
+        align-items: center;
+        display: flex;
+    }
+    .page-banner p {
+        color: #fff;
+        font-size: 14px;
+    }
+    .page-banner h2 {
+        color: #fff;
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 18px;
+    }
+    .footer-bootom-section .copywrite-left-section p
+    {
+        text-align: center;
+    }
+    .social-links .button i {
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 6px;
+    }
+    .page-banner-social-media-marketing
+    {
+        background-image: url(../images/page-banner/social-media-marketing-page-panner.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110px;
+        background-position: left;
+        align-items: center;
+        display: flex;
+    }
+    .page-banner
+    {
+        background-image: url(../images/page-banner/about-page-panner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 165px;
+        background-position: left;
+        align-items: center;
+        display: flex;
+    }
+    .services-item .service-icon .blog-image
+    {
+        width: 100%;
+    }
+    .contact-page-form-section {
+        padding: 20px 15px 20px 16px;
+    }
+    .contact-page-form-section .contact-section-title h4::before {
+        position: absolute;
+        left: 40.7%;
+        top: 45px;
+        content: "";
+        height: 3px;
+        width: 68px;
+        background: #71ad49;
+    }
+    .contact-page-form-section .contact-section-title h4::after {
+        position: absolute;
+        left: 37.6%;
+        top: 45px;
+        content: "";
+        height: 4px;
+        width: 4px;
+        background: #71ad49;
+        border-radius: 50%;
+    }
+    .contact-page-form-section .contact-button
+    {
+        display: flex;
+    justify-content: center;
+    }
+    .featured-icon-box.style8 
+    {
+        height: 320px;
+    }
+    .faq-section h4::before {
+        position: absolute;
+        left: 14%;
+        top: 9.5%;
+        content: "";
+        height: 3px;
+        width: 68px;
+        background: #71ad49;
+    }
+    .faq-section h4::after {
+        position: absolute;
+        left: 11%;
+        top: 9.5%;
+        content: "";
+        height: 4px;
+        width: 4px;
+        background: #71ad49;
+        border-radius: 50%;
+    }
+    .faq-section
+    {
+        padding: 20px;
+    }
+    .question {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 18px 45px 18px 23px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        background-color: #236fa314;
+        margin-bottom: 10px;
+    }
+    .contact-section-title h4::before {
+        position: absolute;
+        left: 12%;
+        top: 55px;
+        content: "";
+        height: 3px;
+        width: 68px;
+        background: #71ad49;
+    }
+    .contact-section-title h4::after {
+        position: absolute;
+        left: 9%;
+        top: 55px;
+        content: "";
+        height: 4px;
+        width: 4px;
+        background: #71ad49;
+        border-radius: 50%;
+    }
+    .contact-button {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 17px;
+        justify-content: center;
+    }
+    .clients-section h4::before {
+        position: absolute;
+        left: 41.7%;
+        top: 25px;
+        content: "";
+        height: 3px;
+        width: 68px;
+        background: #71ad49;
+    }
+    .clients-section h4::after {
+        position: absolute;
+        left: 38.6%;
+        top: 25px;
+        content: "";
+        height: 4px;
+        width: 4px;
+        background: #71ad49;
+        border-radius: 50%;
+    }
+    .service-page-section .services-right-side h3::before {
+        position: absolute;
+        left: 8.7%;
+        top: 35px;
+        content: "";
+        height: 3px;
+        width: 68px;
+        background: #71ad49;
+    }
+    .service-page-section .services-right-side h3::after {
+        position: absolute;
+        left: 5.6%;
+        top: 35px;
+        content: "";
+        height: 4px;
+        width: 4px;
+        background: #71ad49;
+        border-radius: 50%;
+    }
+    .responsive-navbar
+    {
+        background-color: #f8f9fa !important;
+    }
+    #carouselExampleFade
+    {
+        background-color: #e94544;
+        padding: 0px 5px;
+    }
+    #carouselExampleFade .carousel-inner .carousel-item img
+    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .about-right-section p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .faq-section {
+        box-shadow: 0 19px 38px rgb(0 0 0 / 14%), 0 15px 12px rgb(0 0 0 / 2%);
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 990px)
+{
+    #carouselExampleFade
+    {
+        background-color: #e94544;
+        padding: 0px 10px;
+    }
+    #carouselExampleFade .carousel-inner .carousel-item img
+    {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
